@@ -1,0 +1,43 @@
+Note: Every simulation has a picture showing the code that was changed compared to the default code.
+
+Observations:
+
+Initial Position:
+
+Changing the initial position of the infected cell changes the location of the start and end of the infections. The rate of people who become
+infected and recover remains the same, assuming all other parameters of the simulation are the same.
+
+SIR:
+
+Changing Population to Overwhemingly Susceptible: The number of infected is so low that the infections die out.
+
+Changing Population to Overwhemingly Infection: The number of infected is initially really high, but afterwards 
+goes on the decline until no mroe are infected, as there are not enough susceptible people to newly infect.
+
+Changing Population to Overwhemingly Recovered: The epidemic is done, as there are no new people to infect and
+everyone is now immune to the new infections.
+
+MC:
+
+Lowering either the movement or connection factor results in the infection spreading less rapdily and potentially limiting its as well. 
+Lowering either one of these factors produces the same result, since as mentioned in the Hoya paper, these factors are correlated with each other.
+
+VR:
+
+If the virulency drops below that of recovery, then no infections happen.
+Assuming virulency stays above that of recovery:
+
+- If the recovery rate drops, the epidemic is spread over a longer period of time
+- If the recovery rate is increased, the epidemic finishes sooner
+
+Zong:
+
+- Changing the recovery rate results in faster increase in a the recovered population, resulting in a more flatter, more constant
+population of infected. The number of new recovered persons closely matches the number of infected people.
+
+- Increasing the number of infected leads to less people being suscpetible more quickly as time goes on
+
+- Increasing the moblity rates results in the epidemic passing sooner
+
+
+
